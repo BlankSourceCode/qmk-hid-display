@@ -10,7 +10,7 @@ A small node script that will collect data and send updates to a qmk enabled key
     "qmk_firmware oled update code")
 * You will also need to have copied over my custom font from this repo
     * This font can  be found in the qmk_firmware fork here: [glcdfont.c](https://github.com/BlankSourceCode/qmk_firmware/blob/lily58/keyboards/lily58/keymaps/blanksourcecode/glcdfont.c "font firmware file")
-![font.bmp](font.bmp "Custom OLED font")
+    * ![font.bmp](font.bmp "Custom OLED font")
 
 ## Development Setup
 * Clone this repo
@@ -28,7 +28,7 @@ A small node script that will collect data and send updates to a qmk enabled key
 ## How it works
 * The script simply calls various node api/packages to collect data that we want to use for the display on the keyboard oled screen
 * The examples included are:
-    * Perf - shows stats for cpu, memory usage (mem), disk activity (dsk), and network bandwidth use (net). As a little bar graph. It's going crazy because my PC is pretty old and I just started downloading some blizzard game update.
+    * Perf - shows stats for cpu, memory usage (mem), disk activity (dsk), and network bandwidth use (net). As a little bar graph.
     * Stock - shows current stock price of 4 tech stocks I added, MSFT, AAPL, GOOG, and FB.
     * Weather - shows current weather forecast for the Seattle area.
 * But essentially you can use anything that fits into the 21x4 character screen and is available in the font image
