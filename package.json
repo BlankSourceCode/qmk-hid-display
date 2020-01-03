@@ -1,5 +1,5 @@
 {
-  "name": "qmk-hid-display",
+  "name": "@klathmon/qmk-hid-display",
   "version": "1.0.0",
   "description": "A small node script that will communicate with a qmk keyboard over raw hid",
   "main": "index.js",
@@ -8,6 +8,11 @@
   },
   "author": "James Lissiak",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/Klathmon/qmk-hid-display",
+  "repository": "https://github.com/Klathmon/qmk-hid-display",
   "dependencies": {
     "node-hid": "^1.1.0",
     "os-utils": "0.0.14",
