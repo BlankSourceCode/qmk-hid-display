@@ -210,8 +210,15 @@ async function sendToKeyboard(screen) {
     // keyboard to store it ready to send to the slave side once full.
     let index = 0;
     for (const line of lines) {
+        if (os.platform() === 'darwin'){
+          await wait(100);
+        }
         keyboard.write(line);
-        await wait(10);
+        if (os.platform() === 'darwin') {
+          await wait(100);
+        } else {
+          await wait(20);
+        }
     }
 
     // We have sent the screen data, so clear it ready for the next one
