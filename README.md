@@ -2,6 +2,9 @@
 
 A small node script that will collect data and send updates to a qmk enabled keyboard to show on the OLED display.
 
+## Klathmon's Fork
+I forked this and changed it so it should run on both MacOS and Windows but with only CPU and RAM in the perf monitor. I also changed the package name to be `@klathmon/qmk-hid-display` so that I could publish it and run it on any computer that has node installed by just doing `npx @klathmon/qmk-hid-display`.
+
 ## Pre-requisites
 * To use this script you must have a QMK enabled keyboard with OLED displays such as the Lily58.
 * You also need to have flashed the keyboard with custom QMK firmware that has the corresponding OLED update code

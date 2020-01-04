@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A small node script that will communicate with a qmk keyboard over raw hid",
   "main": "index.js",
+  "bin": {
+    "qmk-hid-display": "./index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },
