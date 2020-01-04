@@ -1,10 +1,10 @@
 {
   "name": "@klathmon/qmk-hid-display",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A small node script that will communicate with a qmk keyboard over raw hid",
   "main": "index.js",
   "bin": {
-    "qmk-hid-display": "node index.js"
+    "qmk-hid-display": "./index.js"
   },
   "scripts": {
     "start": "node index.js"
